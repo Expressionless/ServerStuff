@@ -1,11 +1,12 @@
-package main;
+package main.networking;
+
+import static main.networking.Constants.*;
 
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
-
-import static main.NetworkConstants.*;
+import java.util.Scanner;
 
 public class Server {
 

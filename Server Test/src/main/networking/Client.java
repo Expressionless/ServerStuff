@@ -1,9 +1,9 @@
-package main;
+package main.networking;
+
+import static main.networking.Constants.*;
 
 import java.io.*;
 import java.net.Socket;
-
-import static main.NetworkConstants.*;
 
 public class Client {
 
